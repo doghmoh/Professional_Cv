@@ -52,7 +52,13 @@ function App() {
             <div className="space-y-4">
               <button
                 onClick={() =>
-                  window.open("https://wa.me/966597207446", "_blank")
+                  window.open(
+                    "https://wa.me/966597207446?text=" +
+                      encodeURIComponent(
+                        "السلام عليكم، أريد عمل سيرة ذاتية احترافية من فضلك"
+                      ),
+                    "_blank"
+                  )
                 }
                 className="group bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 rounded-full text-lg font-Bold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-3 mx-auto"
               >
