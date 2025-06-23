@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font Faces */
+@font-face {
+  font-family: 'Almarai-Bold';
+  src: url('./fonts/Almarai-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Almarai-Regular';
+  src: url('./fonts/Almarai-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Almarai-Light';
+  src: url('./fonts/Almarai-Light.ttf') format('truetype');
+  font-weight: 300;
+}
